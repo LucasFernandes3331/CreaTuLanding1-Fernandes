@@ -4,45 +4,118 @@
   box-sizing: border-box;
 }
 
-.logo-img{
-  text-align: center;
-  margin-top: 18px;
+.logo-pc {
+  width: 100px;
+  filter: drop-shadow(0px 0px 6px #ffff);
 }
 
-.div-navbar {
+/* Estilos para el componente Error */
+
+.div-error {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.navbarlist {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  width: 30%;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
-.carrito-div {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+.error-img {
+  width: 400px;
+  align-items: center;
+  border-radius: 2em;
 }
 
-.carrito-emoji {
-  display: flex;
-  width: 100%;
-  font-size: 40px;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.div-productos {
+.div-error-h2 {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
-.div-props {
-  margin-top: 30px;
+/* Estilos para el componente Inicio */
+
+.div-inicio {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.div-inicio p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(147, 209, 147);
+  text-transform: uppercase;
+}
+
+.images-index {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.mother-asus-img, .placa-video-img, .procesador-img {
+  width: 350px;
+  height: 350px;
+  margin: 30px;
+  filter: drop-shadow(0px 0px 5px #ffff);
+}
+
+/* Estilos para el componente Contacto */
+
+.h2-contacto {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.div-quienes-somos {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.div-quienes-somos h3 {
+  font-size: 23px;
+}
+
+.parrafos-contacto {
+  font-size: 18px;
+}
+
+.div-contactanos {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.div-contactanos h3 {
+  font-size: 23px;
+}
+
+.div-comentario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-comentario {
+  margin-top: 15px;
+  width: 600px;
+  height: 80px;
+  border-radius: 1em;
+  border-style: hidden;
+}
+
+.div-input-submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.input-submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 1em;
+  border-style: hidden;
+  cursor: pointer;
 }

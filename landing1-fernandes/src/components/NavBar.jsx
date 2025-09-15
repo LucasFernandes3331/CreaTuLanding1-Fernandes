@@ -1,19 +1,28 @@
-import React from 'react'
-import CartWidget from './CartWidget'
+import { Link, Outlet } from 'react-router-dom'
+import Logo from '../assets/logo-pc.svg'
 
 function NavBar() {
     return (
         <>
-            <div class="logo-img">
-                <p>LOGO (img)</p>
+        <header>
+            <div>
+                <Link to={'/'}><img className='logo-pc' src={Logo} alt="Imágen en forma de logo de una computadora y una placa de video que dice PC Shop"/></Link>
             </div>
-            <div class="div-navbar">
-                <ul class="navbarlist">
-                    <li>Inicio</li>
-                    <li>Productos</li>
+            <nav>
+                <ul className='list-header'>
+                    <li className='elemento-li'>
+                        <Link to={'/'}>Inicio</Link>
+                    </li>
+                    <li className='elemento-li'>
+                        <Link to={'/productos'}>Productos</Link>
+                    </li>
+                    <li className='elemento-li'>
+                        <Link to={'/contacto'}>Contacto</Link>
+                    </li>
                 </ul>
-            </div>
-            <CartWidget />
+            </nav>
+        </header>
+            <Outlet/>
         </>
     )
 }
