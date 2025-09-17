@@ -283,3 +283,40 @@
 .buttons-funcionalidad-detalles-div button:hover {
   transform: scale(1.1);
 }
+
+/* Estilos por si el producto deseado no se encuentra */
+
+.div-producto-fallido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.div-producto-fallido img {
+  width: 400px;
+  border-radius: 2em;
+}
+
+.div-producto-fallido h2 {
+  margin-top: 30px;
+}
+
+.div-producto-fallido button {
+  height: 65px;
+  width: 120px;
+  border-radius: 1em;
+  border-style: hidden;
+  margin-top: 20px;
+  background-color: #000f;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+  color: #ffff;
+}
+
+.div-producto-fallido button:hover {
+  background-color: #444444;
+  border: solid #000f;
+}

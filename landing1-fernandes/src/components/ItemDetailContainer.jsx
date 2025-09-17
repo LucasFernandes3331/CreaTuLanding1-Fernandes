@@ -8,7 +8,14 @@ function ItemDetailContainer() {
 
     if (!producto) {
         return (
-            <h2>Ocurrió un error al encontrar el producto.</h2>
+            <>
+                <div className='div-producto-fallido'>
+                    <img src="/producto-no-encontrado.png" alt="" />
+                    <h2>Error al encontrar el producto</h2>
+                    <Link to={'/productos'}><button>Volver a productos</button></Link>
+                </div>
+            </>
+            
         )
     }
 
