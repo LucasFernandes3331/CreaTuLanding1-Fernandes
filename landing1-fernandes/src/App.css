@@ -9,7 +9,7 @@
   filter: drop-shadow(0px 0px 6px #ffff);
 }
 
-/* Estilos para el componente Error */
+/* Estilos para el componente error */
 
 .div-error {
   display: flex;
@@ -30,7 +30,7 @@
   margin-top: 30px;
 }
 
-/* Estilos para el componente Inicio */
+/* Estilos para el componente inicio */
 
 .div-inicio {
   text-align: center;
@@ -51,6 +51,19 @@
   width: 100%;
 }
 
+.images-index-divs {
+  background-color: #000f;
+  margin: 25px;
+  border-radius: 5em;
+  filter: drop-shadow(0px 0px 4px #ffff);
+  transition: .3s;
+}
+
+.images-index-divs:hover {
+  transform: scale(1.02);
+  background-color: #1a1919;
+}
+
 .mother-asus-img, .placa-video-img, .procesador-img {
   width: 350px;
   height: 350px;
@@ -58,7 +71,7 @@
   filter: drop-shadow(0px 0px 5px #ffff);
 }
 
-/* Estilos para el componente Contacto */
+/* Estilos para el componente contacto */
 
 .h2-contacto {
   font-size: 35px;
@@ -118,4 +131,86 @@
   border-radius: 1em;
   border-style: hidden;
   cursor: pointer;
+}
+
+/*  Estilos para los componentes de todos los productos */
+
+.h2-categories {
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+  font-size: 30px;
+}
+
+.container-cards {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-productos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background: black;
+  width: 30%;
+  padding: 18px;
+  border-radius: 1.5em;
+  filter: drop-shadow(0px 0px 4px #ffff);
+}
+
+.card-productos button {
+  height: 45px;
+  width: 80px;
+  border-radius: 1em;
+  border-style: hidden;
+  margin-top: 10px;
+  background-color: #575656;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+.card-productos button:hover {
+  transform: scale(1.1);
+}
+
+.img-productos {
+  width: 250px;
+  height: 225px;
+  filter: drop-shadow(0px 0px 4px #ffff);
+}
+
+.div-buttons-padre {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-buttons {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-productos {
+  width: 140px;
+  height: 68px;
+  background: #000f;
+  color: #ffff;
+  border-radius: 1em;
+  border-style: hidden;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.button-productos:hover {
+  background-color: #444444;
+  border: solid #000f;
 }

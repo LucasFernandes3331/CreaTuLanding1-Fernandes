@@ -19,6 +19,9 @@ function NavBar() {
                     <li className='elemento-li'>
                         <Link to={'/contacto'}>Contacto</Link>
                     </li>
+                    <li className='elemento-li'>
+                        <Link>🛒</Link> {/*item provisorio, no funciona.*/}
+                    </li>
                 </ul>
             </nav>
         </header>
