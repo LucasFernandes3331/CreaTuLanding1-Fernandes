@@ -23,7 +23,7 @@ function ItemDetailContainer() {
         <>
         <div className='div-producto-detalle'>
             <div className='div-card-detalle'>
-                <img className='foto-producto-detalle' src={producto.foto} alt="" />
+                <img className='foto-producto-detalle' src={producto.foto} alt={producto.nombre} />
                 <div>
                 <h2>{producto.nombre}</h2>
                 <p>{producto.descripcion}</p>
