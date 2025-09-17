@@ -3,7 +3,7 @@ const componentesComputadora = [
         id: 1,
         foto: "/mother-asus-prime-a520m-k.png",
         nombre: "Mother ASUS PRIME A520M-K",
-        descripcion: "Placa madre para computadora de la marca ASUS, modelo Prime a520-M-K (Procesadores AMD).",
+        descripcion: "Placa madre para computadora de la marca ASUS, modelo Prime A520-M-K (Procesadores AMD).",
         precio: 82900,
         categoria: "Mothers"
     },
@@ -11,7 +11,7 @@ const componentesComputadora = [
         id: 2,
         foto: "/mother-gigabyte-h610m-k.png",
         nombre: "Mother Gigabyte H610M-K",
-        descripcion: "Placa madre para computadora de la marca Gigabyte, modelo h610M-K (Procesadores Intel).",
+        descripcion: "Placa madre para computadora de la marca Gigabyte, modelo H610M-K (Procesadores Intel).",
         precio: 113850,
         categoria: "Mothers"
     },

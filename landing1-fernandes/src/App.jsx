@@ -17,6 +17,7 @@ function App() {
           <Route path='/' element={<NavBar />}>
             <Route index element={<Inicio />} />
             <Route path='/productos' element={<ItemListContainer />} />
+            <Route path='/productos/:id' element={<ItemDetailContainer />} />
             <Route path='/contacto' element={<Contacto />} />
             <Route path='/*' element={<Error />} />
           </Route>

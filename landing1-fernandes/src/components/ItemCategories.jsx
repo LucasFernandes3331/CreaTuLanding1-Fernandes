@@ -26,6 +26,7 @@ function ItemCategories({ items }) {
                 {filteredItems.map(item => (
                     <Items
                         key={item.id}
+                        id={item.id}
                         foto={item.foto}
                         nombre={item.nombre}
                         precio={item.precio}
