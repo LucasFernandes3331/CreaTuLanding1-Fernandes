@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom'
 import Logo from '../assets/logo-pc.svg'
+import CartWidget from './CartWidget'
 
 function NavBar() {
     return (
@@ -20,7 +21,7 @@ function NavBar() {
                         <Link to={'/contacto'}>Contacto</Link>
                     </li>
                     <li className='elemento-li'>
-                        <Link>🛒</Link> {/*item provisorio, no funciona.*/}
+                        <Link><CartWidget/></Link>
                     </li>
                 </ul>
             </nav>
